@@ -40,3 +40,11 @@ class Container extends React.Component {
     );
   }
 }
+
+
+React.createElement(
+  'div',
+  null,
+  React.createElement('p', null, '첫 번째 p태그'),
+  React.createElement('p', null, '두 번째 p태그'),
+)
